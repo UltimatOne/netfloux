@@ -1,17 +1,17 @@
-import "landingPage.css";
+import "./landingPage.css";
 
-export default function landingPage() {
+export default function LandingPage() {
   return (
     <div>
       <header>
         <video className="video-intro" autoplay loop muted>
           <source
-            src="https://assets.codepen.io/6093409/river.mp4"
+            src="video_trailer.mov"
             type="video/mp4"
           />
         </video>
-        <h1>Faites le plein d'émotions</h1>
-        <h2>
+        <h1 className="titre-Intro-h1">Faites le plein d'émotions</h1>
+        <h2 className="titre-Intro-h2">
           L'abonnement Netfloux Premium vous permet de regarder de nombreux
           films et séries populaires
         </h2>
