@@ -1,14 +1,22 @@
-import Navbar from "./composants/navbar/navbar"
-import logo from './logo-netfloux.png';
-import './App.css';
+import React from "react";
+import { Route, Routes } from "react-router";
+import Navbar from "./composants/navbar/navbar";
+import "./App.css";
+
+import Offres from "./composants/pages/offres/offres";
+import Programmes from "./composants/pages/programmes/programmes";
+import Actuallites from "./composants/pages/actuallites/actuallites";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Navbar />
-      <header className="App-header">
-      </header>
-    </div>
+      <Routes>
+        <Route path="/offres" element={<Offres />} />
+        <Route path="/programmes" element={<Programmes />} />
+        <Route path="/actuallites" element={<Actuallites />} />
+      </Routes>
+    </>
   );
 }
 
