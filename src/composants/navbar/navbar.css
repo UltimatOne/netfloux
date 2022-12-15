@@ -1,6 +1,44 @@
 #navD1{
-    height: 5em;
-    background-color: white;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    height: 127px;
+    background-color: #ffff;
+    margin: auto;
+}
+#nb1{
+    margin-left: auto;
+    margin-right: 18px;
+    border-color: #66A724;
+}
+#logo{
+    height: 84px;
+    width: 131px;
+    margin-left: 38px;
+}
+#nl2, #nl3, #nl4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    margin: 2%;
+    font-weight: bold;
+    color: black;
+    text-decoration-line: none;
+}
+#nb2{
+    margin-right: 38px;
+    border-color: #00B3FF;
+}
+#nb1, #nb2{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    height: 58.03px;
+    width: 186px;
+    border-radius: 10px;
+    color: white;
 }
