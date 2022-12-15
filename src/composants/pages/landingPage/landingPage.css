@@ -1,11 +1,27 @@
-.video-intro {
-    height: 100vh;
-    width: 100vw;
-    object-fit: cover;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-    }
+
+
+#videoIntro {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: -1;
+}
+
+.containerIntro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10em;
+}
+
+.titre-Intro-h1{
+    color: white;
+    font-size: 3em;
+}
+.h1Span{
+    font-size: 25px;
+}
+
+

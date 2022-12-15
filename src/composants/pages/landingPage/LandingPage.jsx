@@ -3,19 +3,19 @@ import "./landingPage.css";
 export default function LandingPage() {
   return (
     <div>
-      <header>
-        <video className="video-intro" autoplay loop muted>
-          <source
-            src="video_trailer.mov"
-            type="video/mp4"
-          />
-        </video>
-        <h1 className="titre-Intro-h1">Faites le plein d'émotions</h1>
-        <h2 className="titre-Intro-h2">
-          L'abonnement Netfloux Premium vous permet de regarder de nombreux
-          films et séries populaires
-        </h2>
-      </header>
+      <video id="videoIntro" autoPlay loop muted>
+        <source
+          src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div className="containerIntro">
+        <h1 className="titre-Intro-h1">Faites le plein d'émotions <br/><span className="h1Span">L'abonnement Netfloux Premium vous permet de</span> <span className="h1Span">regarder de nombreux
+films et séries populaires</span></h1>
+        
+          
+          
+      </div>
     </div>
   );
 }
