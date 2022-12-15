@@ -1,3 +1,6 @@
 #navD1{
     height: 5em;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
 }

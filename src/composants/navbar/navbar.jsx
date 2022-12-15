@@ -11,7 +11,7 @@ export default function Navbar(){
             <Link to="./composants/pages/programmes/programmes">Programmes</Link>
             <Link to="./composants/pages/actuallites/actuallites">Actualités</Link>
             <Bouton text="Inscription"/>
-            <Bouton text="Se connecter"/>
+            <Bouton text="Se connecter" color="red"/>
         </div>
     )
 }
