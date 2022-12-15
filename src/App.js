@@ -10,10 +10,10 @@ function App() {
       <Navbar />
       <header className="App-header"> 
       <div className="containerLeft">
-      <BoutonLeft name="FILM" />FILM<br/>
-      <BoutonLeft name="SERIES" />SERIES<br/>
-      <BoutonLeft name="MUSIQUES" />MUSIQUES<br/>
-      <BoutonLeft name="GAMING" />GAMING<br/>
+      <BoutonLeft name="FILM" /><br/>
+      <BoutonLeft name="SERIES" /><br/>
+      <BoutonLeft name="MUSIQUES" /><br/>
+      <BoutonLeft name="GAMING" /><br/>
       <BoutonLeft name="FORUM" /><br/>
       <BoutonLeft name="FRESH NEWS" /><br/>
       <BoutonLeft name="YouTube" /><br/>
