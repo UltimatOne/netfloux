@@ -1,25 +1,9 @@
-import "bouton.css";
+import "./bouton.css";
 
-
-export const Bouton = (props) =>{
-const Bouton = (props) =>{
-return (
-    <button className="Bouton" onClick={props.onClick}>
+export const Bouton = (props) => {
+    return (
+      <button className="Bouton" id="Bouton" onClick={props.onClick}>
         {props.text}
-        </button>
-
-
-)
-}
-}
-
-
-
-
-
-
-
-
-
-
-
+      </button>
+    );
+  };
