@@ -1,5 +1,13 @@
+
 #actuallites{
-    height: 77.5vh;
+    position: relative;
+    top: 127px;
+    display: flex;
+    justify-content: space-between;
+    height: 1024px;
     background-color: #0094FF4F;
     text-align: center;
+}
+#actuallitesMain{
+    width: 100%;
 }

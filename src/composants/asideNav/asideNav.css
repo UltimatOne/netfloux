@@ -1,4 +1,4 @@
-#aside{
+#asideNav{
     height: 100%;
     width: 3em;
     display: flex;
@@ -19,4 +19,17 @@
     color: #ffffff;
     width: 252.73px;
     border-radius: 20px;
+}
+#aB1{
+    border-color: #66A724;
+}
+
+#aB2, #aB5, #aB7{
+    border-color: #FF5A50;
+}
+#aB3, #aB6{
+    border-color: #FFDD3D;
+}
+#aB4{
+    border-color: #37B6ED;
 }

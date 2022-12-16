@@ -1,10 +1,10 @@
-import Aside from "../../aside/aside";
+import AsideNav from "../../asideNav/asideNav";
 import "./programmes.css";
 
 function Programmes() {
   return (
     <div id="programmes">
-      <Aside />
+      <AsideNav />
       <div id="programmesMain">
         <h1>Programmes</h1>
       </div>

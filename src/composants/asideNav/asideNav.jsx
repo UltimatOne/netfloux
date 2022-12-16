@@ -1,8 +1,8 @@
-import "./aside.css"
+import "./asideNav.css"
 import { Bouton } from "../Bouton/bouton"
-export default function Aside(){
+export default function AsideNav(){
     return (
-        <div id="aside">
+        <div id="asideNav">
             <Bouton color="#3F6602" text="FILMS"id="aB1"/>
             <Bouton text="SERIES" id="aB2"/>
             <Bouton color="#FFCA3A" text="MUSIQUES" id="aB3"/>
