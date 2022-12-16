@@ -1,6 +1,5 @@
 #asideNav{
     height: 100%;
-    width: 3em;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
