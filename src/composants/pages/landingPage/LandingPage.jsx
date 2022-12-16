@@ -3,7 +3,7 @@ import "./landingPage.css";
 export default function LandingPage() {
   return (
     <div>
-      <header>
+      <div className="content">
         <video className="video-intro" autoplay loop muted>
           <source
             src="video_trailer.mov"
@@ -15,7 +15,7 @@ export default function LandingPage() {
           L'abonnement Netfloux Premium vous permet de regarder de nombreux
           films et séries populaires
         </h2>
-      </header>
+      </div>
     </div>
   );
 }

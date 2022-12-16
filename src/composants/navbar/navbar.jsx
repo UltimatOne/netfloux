@@ -6,7 +6,7 @@ import { Bouton } from "../Bouton/bouton";
 export default function Navbar(){
     return (
         <div id="navD1">
-            <Link to="/LandingPage" id="nl1"><img src={Logo} alt="Accueil logo Netfloux" id="logo"/></Link>
+            <Link to="/" id="nl1"><img src={Logo} alt="Accueil logo Netfloux" id="logo"/></Link>
             <Link to="/offres" id="nl2">Offres</Link>
             <Link to="/programmes" id="nl3">Programmes</Link>
             <Link to="/actuallites" id="nl4">Actualités</Link>
