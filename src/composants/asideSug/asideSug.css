@@ -1,0 +1,20 @@
+#asideSug{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-right: 3%;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+#titreAsug{
+    margin-top: -20px;
+}
+#lecteur1{
+    margin-top: -70px;
+}
+#lecteur4{
+    margin-bottom: 10%;
+}
