@@ -1,0 +1,22 @@
+#aside{
+    height: 100%;
+    width: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 1%;
+}
+#aB1, #aB2, #aB3, #aB4{
+    height: 119.06px;
+}
+#aB5, #aB6, #aB7{
+    height: 77.38px;
+}
+#aB1, #aB2, #aB3, #aB4, #aB5, #aB6, #aB7{
+    font-weight: bold;
+    font-size: 32px;
+    font-family: "Roboto";
+    color: #ffffff;
+    width: 252.73px;
+    border-radius: 20px;
+}

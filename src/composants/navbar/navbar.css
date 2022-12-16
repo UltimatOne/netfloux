@@ -1,8 +1,11 @@
 #navD1{
+    width: 100%;
+    position: fixed;
+    z-index: 4;
     display: flex;
     align-items: center;
     height: 127px;
-    background-color: #ffff;
+    background-color: #ffffff;
     margin: auto;
 }
 #nb1{

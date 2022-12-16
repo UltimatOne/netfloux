@@ -1,9 +1,13 @@
-import "./offres.css"
+import Aside from "../../aside/aside";
+import "./offres.css";
 
 function Offres() {
   return (
     <div id="offres">
-      <h1>Offres</h1>
+      <Aside />
+      <div id="offresMain">
+        <h1>Offres</h1>
+      </div>
     </div>
   );
 }
