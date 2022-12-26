@@ -6,7 +6,6 @@
     display: flex;
     align-items: center;
     height: 127px;
-    background-color: #ffff;
 }
 #nb1{
     margin-left: auto;
@@ -26,7 +25,7 @@
     line-height: 34px;
     margin: 2%;
     font-weight: bold;
-    color: black;
+    color: #ffff;;
     text-decoration-line: none;
 }
 #nb2{
