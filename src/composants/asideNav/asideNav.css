@@ -1,0 +1,34 @@
+#asideNav{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 1%;
+}
+#aB1, #aB2, #aB3, #aB4{
+    height: 119.06px;
+}
+#aB5, #aB6, #aB7{
+    height: 77.38px;
+}
+#aB1, #aB2, #aB3, #aB4, #aB5, #aB6, #aB7{
+    font-weight: bold;
+    font-size: 32px;
+    font-family: "Roboto";
+    color: #ffffff;
+    width: 252.73px;
+    border-radius: 20px;
+}
+#aB1{
+    border-color: #66A724;
+}
+
+#aB2, #aB5, #aB7{
+    border-color: #FF5A50;
+}
+#aB3, #aB6{
+    border-color: #FFDD3D;
+}
+#aB4{
+    border-color: #37B6ED;
+}

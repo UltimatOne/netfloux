@@ -1,0 +1,14 @@
+#offres{
+    position: relative;
+    top: 119px;
+    display: flex;
+    justify-content: space-between;
+    height: 1024px;
+    background-color: #FF404766;
+    text-align: center;
+    width: 100%;
+    
+}
+#offresMain{
+    width: 60%;
+}
