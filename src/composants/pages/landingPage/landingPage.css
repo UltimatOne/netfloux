@@ -14,14 +14,27 @@
     flex-direction: column;
     align-items: center;
     margin-top: 10em;
+    height: 50vh;
 }
 
 .titre-Intro-h1{
+    text-align: center;
+    margin-top: 5%;
     color: white;
     font-size: 3em;
 }
 .h1Span{
     font-size: 25px;
+}
+#callToAction{
+   margin-top: 4%;
+   width: 500Px;
+   height: 15vh;
+   font-size: xx-large;
+   font-weight: 900;
+   border-radius: 40px;
+   color: #ffffff;
+   border-color: rgba(255, 66, 73, 0.63);
 }
 
 

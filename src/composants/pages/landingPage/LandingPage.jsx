@@ -1,4 +1,6 @@
+import { Bouton } from "../../Bouton/bouton";
 import "./landingPage.css";
+
 
 export default function LandingPage() {
   return (
@@ -12,9 +14,7 @@ export default function LandingPage() {
       <div className="containerIntro">
         <h1 className="titre-Intro-h1">Faites le plein d'émotions <br/><span className="h1Span">L'abonnement Netfloux Premium vous permet de</span> <span className="h1Span">regarder de nombreux
 films et séries populaires</span></h1>
-        
-          
-          
+        <Bouton id="callToAction" text="1er Mois Offert !" color="rgba(255, 66, 73, 0.47)"/>
       </div>
     </div>
   );
